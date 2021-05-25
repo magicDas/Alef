@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page One</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">     
+          <a href="javascript:void(0)" class="logo">
+            <img src="images/content/logo.png" alt="logo">
+          </a>     
+          <nav class="menu">              
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="javascript:void(0)">Main</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="javascript:void(0)">Gallery</a>
+              </li>            
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="javascript:void(0)">News</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="javascript:void(0)">Profile</a>
+              </li>
+            </ul> 
+          </nav>
+          <div class="box-phone">
+            <a class="header__phone" href="tel:54434900000">+544 3490 0000</a>
+            <p>Звоните скорее!</p>
+          </div>   
+
+          <button class="header__btn-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>      
+        </div>
+
+        <div class="result-search">
+          <p>Найдено 349 котов</p>
+        </div>
+      </div>  
+    </header>
+ 
+    <main class="main">
+      <div class="shop">
+        <div class="container">
+          <div class="shop__sorting">
+            <p class="shop__sorting-item shop__sorting-item-text">Сортировать по: </p>            
+            <div class="price">
+              <p class="shop__sorting-item arrow">Цене</p>
+              <ul class="price-inner">
+                <li class="price-inner-item" data-sort="order:asc">По возрастанию</li>
+                <li class="price-inner-item" data-sort="order:descending">По убыванию</li>
+              </ul>
+            </div>
+            <div class="price age">
+              <p class="shop__sorting-item arrow">Возрасту</p>
+              <ul class="price-inner">
+                <li class="price-inner-item" data-sort="ageorder:asc">Сначала младше</li>
+                <li class="price-inner-item" data-sort="ageorder:descending">Сначала старше</li>
+              </ul>
+            </div>            
+            <div>
+            </div>  
+          </div>
+          <div class="shop__inner">
+            <div class="shop__items">
+                <a class="shop__item mix" data-order="30" data-ageorder="2" href="javascript:void(0)">
+                  <img class="shop__item-image" src="images/content/1.jpg" alt="img">
+                  <img class="shop__item-sile active" src="images/content/sile.png" alt="sile">
+                  <img class="shop__item-like active-like" src="images/content/like-1.png" alt="like">                  
+                  <div class="shop__item-info">
+                    <p class="shop__item-title">Кот полосатый</p>
+                    <div class="shop__item-desc">
+                      <div class="shop__item-desc-color">
+                        <p class="shop__item-desc-color-text">Коричневый <br>окрас</p>
+                      </div>
+                      <div class="shop__item-desc-age">
+                        <p class="shop__item-desc-age-num">2мес.</p>
+                        <p class="shop__item-desc-age-text">Возраст</p>
+                      </div>
+                      <div class="shop__item-desc-numberofpaws">
+                        <p class="shop__item-desc-numberofpaws-num">4</p>
+                        <p class="shop__item-desc-numberofpaws-num-text">Кол-во лап</p>
+                      </div>
+                    </div>
+                    <p class="shop__item-price">30 000 руб.</p>
+                  </div>                  
+                  <button class="shop__item-btn">Купить</button>
+                </a>
+                <a class="shop__item mix" data-order="40" data-ageorder="4" href="javascript:void(0)">
+                  <img class="shop__item-image" src="images/content/2.jpg" alt="img">
+                  <img class="shop__item-sile active" src="images/content/sile.png" alt="sile">
+                  <img class="shop__item-like active-like" src="images/content/like-1.png" alt="like">                  
+                  <div class="shop__item-info">
+                    <p class="shop__item-title">Кот полосатый</p>
+                    <div class="shop__item-desc">
+                      <div class="shop__item-desc-color">
+                        <p class="shop__item-desc-color-text">Коричневый <br>окрас</p>
+                      </div>
+                      <div class="shop__item-desc-age">
+                        <p class="shop__item-desc-age-num">4мес.</p>
+                        <p class="shop__item-desc-age-text">Возраст</p>
+                      </div>
+                      <div class="shop__item-desc-numberofpaws">
+                        <p class="shop__item-desc-numberofpaws-num">4</p>
+                        <p class="shop__item-desc-numberofpaws-num-text">Кол-во лап</p>
+                      </div>
+                    </div>
+                    <p class="shop__item-price">40 000 руб.</p>
+                  </div>                  
+                  <button class="shop__item-btn">Купить</button>
+                </a>
+                <a class="shop__item mix" data-order="20" data-ageorder="3" href="javascript:void(0)">
+                  <img class="shop__item-image" src="images/content/3.jpg" alt="img">
+                  <img class="shop__item-sile active" src="images/content/sile.png" alt="sile">
+                  <img class="shop__item-like active-like" src="images/content/like-1.png" alt="like">                  
+                  <div class="shop__item-info">
+                    <p class="shop__item-title">Кот полосатый</p>
+                    <div class="shop__item-desc">
+                      <div class="shop__item-desc-color">
+                        <p class="shop__item-desc-color-text">Коричневый <br>окрас</p>
+                      </div>
+                      <div class="shop__item-desc-age">
+                        <p class="shop__item-desc-age-num">3мес.</p>
+                        <p class="shop__item-desc-age-text">Возраст</p>
+                      </div>
+                      <div class="shop__item-desc-numberofpaws">
+                        <p class="shop__item-desc-numberofpaws-num">4</p>
+                        <p class="shop__item-desc-numberofpaws-num-text">Кол-во лап</p>
+                      </div>
+                    </div>
+                    <p class="shop__item-price">20 000 руб.</p>
+                  </div>                  
+                  <button class="shop__item-btn">Купить</button>
+                </a>
+                <a class="shop__item mix" data-order="25" data-ageorder="6" href="javascript:void(0)">
+                  <img class="shop__item-image" src="images/content/1.jpg" alt="img">
+                  <img class="shop__item-sile active" src="images/content/sile.png" alt="sile">
+                  <img class="shop__item-like active-like" src="images/content/like-1.png" alt="like">                  
+                  <div class="shop__item-info">
+                    <p class="shop__item-title">Кот полосатый</p>
+                    <div class="shop__item-desc">
+                      <div class="shop__item-desc-color">
+                        <p class="shop__item-desc-color-text">Коричневый <br>окрас</p>
+                      </div>
+                      <div class="shop__item-desc-age">
+                        <p class="shop__item-desc-age-num">6мес.</p>
+                        <p class="shop__item-desc-age-text">Возраст</p>
+                      </div>
+                      <div class="shop__item-desc-numberofpaws">
+                        <p class="shop__item-desc-numberofpaws-num">4</p>
+                        <p class="shop__item-desc-numberofpaws-num-text">Кол-во лап</p>
+                      </div>
+                    </div>
+                    <p class="shop__item-price">25 000 руб.</p>
+                  </div>                  
+                  <button class="shop__item-btn">Купить</button>
+                </a>
+                <a class="shop__item mix" data-order="30" data-ageorder="5" href="javascript:void(0)">
+                  <img class="shop__item-image" src="images/content/3.jpg" alt="img">
+                  <img class="shop__item-sile active" src="images/content/sile.png" alt="sile">
+                  <img class="shop__item-like active-like" src="images/content/like-1.png" alt="like">                  
+                  <div class="shop__item-info">
+                    <p class="shop__item-title">Кот полосатый</p>
+                    <div class="shop__item-desc">
+                      <div class="shop__item-desc-color">
+                        <p class="shop__item-desc-color-text">Коричневый <br>окрас</p>
+                      </div>
+                      <div class="shop__item-desc-age">
+                        <p class="shop__item-desc-age-num">5мес.</p>
+                        <p class="shop__item-desc-age-text">Возраст</p>
+                      </div>
+                      <div class="shop__item-desc-numberofpaws">
+                        <p class="shop__item-desc-numberofpaws-num">4</p>
+                        <p class="shop__item-desc-numberofpaws-num-text">Кол-во лап</p>
+                      </div>
+                    </div>
+                    <p class="shop__item-price">30 000 руб.</p>
+                  </div>                  
+                  <button class="shop__item-btn">Купить</button>
+                </a>
+                <a class="shop__item mix" data-order="10" data-ageorder="2" href="javascript:void(0)">
+                  <img class="shop__item-image" src="images/content/2.jpg" alt="img">
+                  <img class="shop__item-sile active" src="images/content/sile.png" alt="sile">
+                  <img class="shop__item-like active-like" src="images/content/like-1.png" alt="like">                  
+                  <div class="shop__item-info">
+                    <p class="shop__item-title">Кот полосатый</p>
+                    <div class="shop__item-desc">
+                      <div class="shop__item-desc-color">
+                        <p class="shop__item-desc-color-text">Коричневый <br>окрас</p>
+                      </div>
+                      <div class="shop__item-desc-age">
+                        <p class="shop__item-desc-age-num">2мес.</p>
+                        <p class="shop__item-desc-age-text">Возраст</p>
+                      </div>
+                      <div class="shop__item-desc-numberofpaws">
+                        <p class="shop__item-desc-numberofpaws-num">4</p>
+                        <p class="shop__item-desc-numberofpaws-num-text">Кол-во лап</p>
+                      </div>
+                    </div>
+                    <p class="shop__item-price">10 000 руб.</p>
+                  </div>                  
+                  <button class="shop__item-btn">Купить</button>
+                </a>                                       
+            </div>
+          </div>          
+          <button class="shop__btn" type="button">Показать еще 20</button>                 
+        </div>
+      </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+
+          <div class="footer__info">
+            <h3 class="footer__info-title">Успей купить!</h3>
+            <p  class="footer__info-text">Подпишись и успей словить все акции</p>
+          </div>
+
+          <div class="footer__subscribe">              
+            <form class="footer__form" id="subscribe" action="javascript:void(0)">
+              <input class="footer__form-input" id="email" type="email" placeholder="Email" required>
+              
+              <button class="footer__form-button" id="btn-submit" type="submit">Подписаться</button>
+            </form>
+
+            <div class="footer__subnews" >
+              <input class="subnews"  type="checkbox" id="sub" name="sub"
+                    checked>
+              <label for="sub">Подписаться на новости</label>
+            </div>
+
+          </div>
+            
+          
+        </div>   
+    </footer>   
+
+  </div>
+  <div class="notify">
+    <span id="notifyType"></span>
+  </div> 
+  <a class="top-up" href="#" title="Вернуться к началу страницы">
+    <img class="top-up__image" src="images/content/top-up.jpg" alt="top-up">
+  </a>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
